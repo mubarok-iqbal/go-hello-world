@@ -20,7 +20,7 @@ func main() {
 			http.Error(w, "Method not supported", http.StatusBadRequest)
 			return
 		}
-		text := "Hello, world!"
+		text := "Hello, world!!!"
 
 		if instanceID != "" {
 			text = text + " This is from " + instanceID
